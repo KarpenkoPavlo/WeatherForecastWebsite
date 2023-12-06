@@ -29,8 +29,10 @@ body {
 }
 
 .find {
+    width: 100%;
     display: flex;
     align-items: center;
+    justify-content: center;
 }
 .i1Country {
     width: 500px;
@@ -45,17 +47,20 @@ body {
 .i1Country:focus {
     outline: 1px solid #fff;
 }
-.menuCountry {
+.selectUK {
+    height: 30px;
+    border: none;
+    border-left: 1px solid rgba(255, 255, 255, 0.3);
+    background-color: rgba(255, 255, 255, 0.3);
 }
-.listCountry {
+.selectUK:focus {
+    outline: 1px solid #fff;
 }
-.itemsCountry {
-}
-.itemCountry {
+.selectUK option {
 }
 
 .info {
-    padding-top: 100px;
+    padding-top: 70px;
 
     display: flex;           /* Відцентрував елементи*/
     flex-direction: column;  /* Відцентрував елементи*/
@@ -70,6 +75,10 @@ body {
     align-items: center;
     gap: 200px;
 }
+.tempCloud h1 {
+    width: 300px;
+    text-align: center;
+}
 .temp {
     font-size: 50px;
 }
@@ -81,6 +90,9 @@ body {
 .items {
     display: flex;
     gap: 100px;
+}
+.items li {
+    width: 150px;
 }
 .item1 {
 }
